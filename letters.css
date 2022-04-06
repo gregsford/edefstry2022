@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Big+Shoulders+Text&family=Cabin+Sketch:wght@700&family=Fredericka+the+Great&family=Frijole&family=Love+Ya+Like+A+Sister&family=Nothing+You+Could+Do&family=Shadows+Into+Light&family=Sue+Ellen+Francisco&family=Waiting+for+the+Sunrise&display=swap');
+
+:root {
+  --red-color: #680303;
+  --gray-color: #8a8a8a;
+  --link-color: #30ff02;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.index-container {
+  font-family: 'Cabin Sketch', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 0;
+}
+
+a {
+  color: inherit;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: var(--link-color);
+}  
+
+
+/* LETTERS */
+
+.e-1 {
+  font-size: 20rem;
+  margin-bottom: 50px;
+  transition: all .5s ease-in-out;
+  animation: e-1 5s infinite
+}
+
+.e-1:hover {
+  transform: scale(2);
+}
+
+.d {
+  font-size: 15.5rem;
+  transition: all .5s ease-in-out;
+  animation: d .5s infinite
+}
+
+.d:hover {
+  transform: scale(2);
+}
+
+.e-2 {
+  font-size: 12.5rem;
+  transition: all .5s ease-in-out;
+  animation: e-2 1.5s infinite
+}
+
+.e-2:hover {
+  transform: scale(2);
+}
+
+.f {
+  font-size: 15.5rem;
+  transition: all .5s ease-in-out;
+  animation: f .75s infinite
+}
+
+.f:hover {
+  transform: scale(2);
+}
+
+.s {
+  font-size: 15rem;
+  transition: all .5s ease-in-out;
+  animation: s 3s infinite
+}
+
+.s:hover {
+  transform: scale(2);
+}
+
+.t {
+  font-size:18rem;
+  transition: all .5s ease-in-out;
+  animation: t 8s infinite
+}
+
+.t:hover {
+  transform: scale(2);
+}
+
+.r {
+  font-size: 13rem;
+  transition: all .5s ease-in-out;
+  animation: r .75s infinite
+}
+
+.r:hover {
+  transform: scale(2);
+}
+
+.y {
+  font-size: 16rem;
+  transition: all .5s ease-in-out;
+  animation: y 2s infinite
+}
+
+.y:hover {
+  transform: scale(2);
+}
+
+@keyframes e-1 {
+  0% {
+    color: var(--gray-color);
+  }
+  50% {
+    color: var(--red-color);
+  }
+  100% {
+    color: var(--gray-color);
+  }
+}
+
+@keyframes d {
+  0% {
+    color: black;
+  }
+  50% {
+    color: var(--red-color);
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes e-2 {
+  0% {
+    color: white;
+  }
+  50% {
+    color: var(--red-color);
+  }
+  100% {
+    color: var(--gray-color);
+  }
+}
+
+@keyframes f {
+  0% {
+    color: var(--gray-color);
+  }
+  25% {
+    color: black;
+  }
+  50% {
+    color: var(--red-color);
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes s {
+  0% {
+    color: var(--red-color);    
+  }
+  100% {
+    color: var(--gray-color);
+  }
+}
+
+@keyframes t {
+  0% {
+    color: white;
+   }
+  50% {
+    color: var(--red-color);
+  }
+  75% {
+    color: black;
+  }
+  100% {
+    color: var(--gray-color);
+  }
+}
+
+@keyframes r {
+  0% {
+  color: var(--gray-color);
+  }
+  50% {
+  color: var(--red-color);
+  }
+  100% {
+    color: var(--gray-color);
+  }
+}
+
+@keyframes y {
+  0% {
+  color: black;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: var(--gray-color);
+  }
+}

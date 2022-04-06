@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Big+Shoulders+Text&family=Cabin+Sketch:wght@700&family=Fredericka+the+Great&family=Frijole&family=Love+Ya+Like+A+Sister&family=Nothing+You+Could+Do&family=Shadows+Into+Light&family=Sue+Ellen+Francisco&family=Waiting+for+the+Sunrise&display=swap');
+
+:root {
+  --red-color: #680303;
+  --gray-color: #8a8a8a;
+  --link-color: #30ff02;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p {
+  color: var(--gray-color);
+}
+
+.main-header {
+  font-family: 'Fredericka the Great', cursive;
+  text-shadow: white 2px 5px;
+  font-size: 5rem;
+}
+
+.container {
+  font-family: 'Cabin Sketch', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 0;
+}
+
+a {
+  color: inherit;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: var(--link-color);
+}  
+
+.heading-container {
+  color: var(--red-color);
+  text-align: center;
+}
+
+/* HOME - RETURN */
+.home {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  text-shadow: white 2px 5px;
+  font-size: 5rem;
+}
+
+.home a:hover {
+  color: #cd0000;
+}
+
+
+/* NEWS */
+
+.news-heading, .news-list {
+  color: var(--red-color);
+}
+
+.news-list {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 20px;
+  color: white;
+}
+
+
+/* DISCOGRAPHY */
+.demo-cover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.demo-img {
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.demo-cover .news-list {
+  font-size: 2.5rem;
+}
+
+.lmt-rel {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 1.5rem;
+}
+
+
+/* MEMBERS  */
+.pics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.member-pic {
+  height: 400px;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.member-pic:hover {
+  transition: all .5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.member-inst {
+  font-size: 30px;
+}
+
+
+
+/* HISTORY */
+.past-mem {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 2rem;
+  color: var(--red-color);
+  text-align: center;
+}
+
+.hist-ul {
+  font-family: 'Nothing You Could Do', cursive;
+  list-style-type: none;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--gray-color);
+}
+
+.years-container {
+  font-family: 'Nothing You Could Do', cursive;
+  margin: 10px 30px;
+  padding: 10px 30px;
+  color: var(--gray-color);
+  font-size: 22px;
+}
+
+.year2k1 {
+  padding: 15px;
+}
+
+.year2k1 h2{
+  color: var(--red-color);
+  font-size: 55px;
+}
+
+.year2k {
+  padding: 15px;
+}
+
+.year2k h2{
+  color: var(--red-color);
+  font-size: 55px;
+}
+
+.year99 {
+padding: 15px;
+}
+
+.year99 h2{
+  color: var(--red-color);
+  font-size: 55px;
+}
+
+.year98 {
+  padding: 15px;
+}
+
+.year98 h2{
+  color: var(--red-color);
+  font-size: 55px;
+}

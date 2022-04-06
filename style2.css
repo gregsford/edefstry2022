@@ -1,0 +1,9 @@
+.mem-container {
+    position: relative;
+    width: 400px;
+}
+
+.mem-img {
+    display: block;
+    width: 100%;
+}
